@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "title": "Bright Crystal",
+    "brand": "Versace",
+    "price": 6958,
+    "imageUrl": "https://cdn.aroma-butik.ru/images/categories/goods_full/1532352223_906_Gianni_Versace_r.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Aventus",
+    "brand": "Creed",
+    "price": 655,
+    "imageUrl": "https://cdn.aroma-butik.ru/images/categories/goods_full/1531555646_11890_Creed_v.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Magie Noire",
+    "brand": "Lancome",
+    "price": 2709,
+    "imageUrl": "https://cdn.aroma-butik.ru/images/categories/goods_full/1534288641_1146_Lancome_Parfum_a.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Funny",
+    "brand": "MOSCHINO",
+    "price": 1750,
+    "imageUrl": "https://cdn.aroma-butik.ru/images/categories/goods_full/1249_1623136662_MOSCHINO_Funny.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Cocaine",
+    "brand": "Franck Boclet",
+    "price": 553,
+    "imageUrl": "https://cdn.aroma-butik.ru/images/categories/goods_full/1545486794_34718_Franck_Boclet_o.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Blue Jeans",
+    "brand": "Versace",
+    "price": 1921,
+    "imageUrl": "https://cdn.aroma-butik.ru/images/categories/goods_full/1533233827_1643_Gianni_Versace_l.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Suzana",
+    "brand": "Noran Perfumes",
+    "price": 1921,
+    "imageUrl": "https://cdn.aroma-butik.ru/images/categories/goods_full/1546949190_36297_Noran_Perfumes_u.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Gentleman 2017",
+    "brand": "GIVENCHY",
+    "price": 112,
+    "imageUrl": "https://cdn.aroma-butik.ru/images/categories/goods_full/1540407350_34731_Givenchy_Parfum_e.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Vanderbilt",
+    "brand": "Gloria Vanderbilt",
+    "price": 663,
+    "imageUrl": "https://cdn.aroma-butik.ru/images/categories/goods_full/965_Gloria_Vanderbilt_Vanderbilt.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Pink Sugar",
+    "brand": "Aquolina",
+    "price": 1012,
+    "imageUrl": "https://cdn.aroma-butik.ru/images/categories/goods_full/1531315623_5375_Aquolina_i.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Trussardi Delicate Rose",
+    "brand": "TRUSSARDI",
+    "price": 623,
+    "imageUrl": "https://cdn.aroma-butik.ru/images/categories/goods_full/1533851228_7405_Trussardi_r.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Philosykos",
+    "brand": "Diptyque",
+    "price": 2618,
+    "imageUrl": "https://cdn.aroma-butik.ru/images/categories/goods_full/1537049699_22612_Diptyque_h.jpg"
+  }
+]
