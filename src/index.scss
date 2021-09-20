@@ -72,6 +72,11 @@ body {
     border: 1px solid black;
     cursor: pointer;
   }
+  .favorite {
+    svg {
+      color: rgb(190, 56, 112);
+    }
+  }
   img {
     width: 70%;
   }

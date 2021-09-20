@@ -1,11 +1,12 @@
 import React from 'react';
-
 import LocalMallIcon from '@material-ui/icons/LocalMall';
 import { Link } from 'react-router-dom';
+import { useSelector } from 'react-redux';
 
 import logo from '../assets/image/header-logo.svg';
 
 function Header() {
+  const { totalPrice } = useSelector((state) => state.cart);
   return (
     <header className="header">
       <Link to="/">
@@ -22,7 +23,7 @@ function Header() {
         <Link to="/cart">
           <div className="header-cart header-button">
             <LocalMallIcon />
-            <span className="total-price">00.00 руб</span>
+            <span className="total-price">{totalPrice} руб</span>
           </div>
         </Link>
       </div>

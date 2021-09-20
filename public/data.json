@@ -5,7 +5,8 @@
     "brand": "Versace",
     "price": 6958,
     "imageUrl": "https://cdn.aroma-butik.ru/images/categories/goods_full/1532352223_906_Gianni_Versace_r.jpg",
-    "favorite": false
+    "favorite": false,
+    "category": 0
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "brand": "Creed",
     "price": 655,
     "imageUrl": "https://cdn.aroma-butik.ru/images/categories/goods_full/1531555646_11890_Creed_v.jpg",
-    "favorite": false
+    "favorite": false,
+    "category": 1
   },
   {
     "id": 3,
@@ -21,7 +23,8 @@
     "brand": "Lancome",
     "price": 2709,
     "imageUrl": "https://cdn.aroma-butik.ru/images/categories/goods_full/1534288641_1146_Lancome_Parfum_a.jpg",
-    "favorite": false
+    "favorite": false,
+    "category": 1
   },
   {
     "id": 4,
@@ -29,7 +32,8 @@
     "brand": "MOSCHINO",
     "price": 1750,
     "imageUrl": "https://cdn.aroma-butik.ru/images/categories/goods_full/1249_1623136662_MOSCHINO_Funny.jpg",
-    "favorite": false
+    "favorite": false,
+    "category": 0
   },
   {
     "id": 5,
@@ -37,7 +41,8 @@
     "brand": "Franck Boclet",
     "price": 553,
     "imageUrl": "https://cdn.aroma-butik.ru/images/categories/goods_full/1545486794_34718_Franck_Boclet_o.jpg",
-    "favorite": false
+    "favorite": false,
+    "category": 0
   },
   {
     "id": 6,
@@ -45,7 +50,8 @@
     "brand": "Versace",
     "price": 1921,
     "imageUrl": "https://cdn.aroma-butik.ru/images/categories/goods_full/1533233827_1643_Gianni_Versace_l.jpg",
-    "favorite": false
+    "favorite": false,
+    "category": 1
   },
   {
     "id": 7,
@@ -53,7 +59,8 @@
     "brand": "Noran Perfumes",
     "price": 1921,
     "imageUrl": "https://cdn.aroma-butik.ru/images/categories/goods_full/1546949190_36297_Noran_Perfumes_u.jpg",
-    "favorite": false
+    "favorite": false,
+    "category": 0
   },
   {
     "id": 8,
@@ -61,7 +68,8 @@
     "brand": "GIVENCHY",
     "price": 112,
     "imageUrl": "https://cdn.aroma-butik.ru/images/categories/goods_full/1540407350_34731_Givenchy_Parfum_e.jpg",
-    "favorite": false
+    "favorite": false,
+    "category": 0
   },
   {
     "id": 9,
@@ -69,7 +77,8 @@
     "brand": "Gloria Vanderbilt",
     "price": 663,
     "imageUrl": "https://cdn.aroma-butik.ru/images/categories/goods_full/965_Gloria_Vanderbilt_Vanderbilt.jpg",
-    "favorite": false
+    "favorite": false,
+    "category": 1
   },
   {
     "id": 10,
@@ -77,7 +86,8 @@
     "brand": "Aquolina",
     "price": 1012,
     "imageUrl": "https://cdn.aroma-butik.ru/images/categories/goods_full/1531315623_5375_Aquolina_i.jpg",
-    "favorite": false
+    "favorite": false,
+    "category": 0
   },
   {
     "id": 11,
@@ -85,13 +95,16 @@
     "brand": "TRUSSARDI",
     "price": 623,
     "imageUrl": "https://cdn.aroma-butik.ru/images/categories/goods_full/1533851228_7405_Trussardi_r.jpg",
-    "favorite": false
+    "favorite": false,
+    "category": 0
   },
   {
     "id": 12,
     "title": "Philosykos",
     "brand": "Diptyque",
     "price": 2618,
-    "imageUrl": "https://cdn.aroma-butik.ru/images/categories/goods_full/1537049699_22612_Diptyque_h.jpg"
+    "imageUrl": "https://cdn.aroma-butik.ru/images/categories/goods_full/1537049699_22612_Diptyque_h.jpg",
+    "favorite": false,
+    "category": 1
   }
 ]

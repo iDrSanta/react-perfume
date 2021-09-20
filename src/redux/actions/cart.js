@@ -5,7 +5,8 @@ export const setCart = (obj) => ({
   payload: { id: nextItemCartId++, obj },
 });
 
-export const removeFromCart = (id) => ({
+export const removeFromCart = (id, price) => ({
   type: 'REMOVE_ITEM_FROM_CART',
-  payload: id,
+  id,
+  price,
 });

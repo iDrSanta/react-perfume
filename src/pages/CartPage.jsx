@@ -8,7 +8,12 @@ function CartPage() {
   const { items } = useSelector(({ cart }) => ({
     items: cart.items,
   }));
+  console.log(items);
   const dispatch = useDispatch();
+  const removecart = (id, price) => {
+    dispatch(removeFromCart(id, price));
+    console.log(id, price);
+  };
   return (
     <div className="container cart-wrapper">
       {!!items.length ? (
@@ -16,7 +21,7 @@ function CartPage() {
           <CartItem
             key={item.id}
             {...item.obj}
-            onRemove={() => dispatch(removeFromCart(item.id))}
+            onRemove={() => removecart(item.id, item.obj.price)}
           />
         ))
       ) : (

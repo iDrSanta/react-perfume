@@ -4,6 +4,7 @@ import FavoriteIcon from '@material-ui/icons/Favorite';
 import { setCart } from '../redux/actions/cart';
 
 import { handleFavorites } from '../redux/actions/products';
+import classNames from 'classnames';
 
 function ProductItem({ obj }) {
   const dispatch = useDispatch();
@@ -18,7 +19,13 @@ function ProductItem({ obj }) {
 
   return (
     <div className="item">
-      <FavoriteIcon onClick={() => handleFavorite(obj.id)} />
+      <div
+        className={classNames({
+          favorite: obj.favorite,
+        })}>
+        <FavoriteIcon onClick={() => handleFavorite(obj.id)} />
+      </div>
+
       <img src={obj.imageUrl} alt="" />
       <div className="item-info">
         <div className="title">{obj.title}</div>
