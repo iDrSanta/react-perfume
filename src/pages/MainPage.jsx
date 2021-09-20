@@ -1,23 +1,24 @@
 import React from 'react';
-import { useSelector, useDispatch } from 'react-redux';
+import { useSelector } from 'react-redux';
 import ProductItem from '../components/ProductItem';
+import { useDispatch } from 'react-redux';
 
-import { setCart } from '../redux/actions/cart';
-
-function MainPage({ data }) {
+function MainPage() {
   const dispatch = useDispatch();
+  const qwe = useSelector((state) => state);
   const { items } = useSelector(({ products }) => ({
     items: products.items,
   }));
 
-  const addToCart = (obj) => {
-    dispatch(setCart(obj));
-  };
   return (
-    <div className="products-wrapper">
-      {items &&
-        items.map((obj) => <ProductItem key={obj.id} {...obj} onClick={() => addToCart(obj)} />)}
-    </div>
+    <>
+      <button className="header-button sort-button">Все</button>
+      <button className="header-button sort-button">Для нее</button>
+      <button className="header-button sort-button">Для него</button>
+      <div className="products-wrapper">
+        {items && items.map((obj) => <ProductItem key={obj.id} obj={obj} />)}
+      </div>
+    </>
   );
 }
 

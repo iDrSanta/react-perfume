@@ -15,14 +15,16 @@ function Header() {
         </div>
       </Link>
       <div className="header-right">
-        <div className="favorite header-button">избранное</div>
+        <Link to="/favorites">
+          <div className="favorite header-button">избранное</div>{' '}
+        </Link>
         <div className="header-line"></div>
-        <div className="header-cart header-button">
-          <Link to="/cart">
+        <Link to="/cart">
+          <div className="header-cart header-button">
             <LocalMallIcon />
             <span className="total-price">00.00 руб</span>
-          </Link>
-        </div>
+          </div>
+        </Link>
       </div>
     </header>
   );

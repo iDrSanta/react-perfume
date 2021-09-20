@@ -1,6 +1,5 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import SentimentVeryDissatisfiedIcon from '@material-ui/icons/SentimentVeryDissatisfied';
 
 import CartItem from '../components/CartItem';
 import { removeFromCart } from '../redux/actions/cart';
@@ -10,7 +9,6 @@ function CartPage() {
     items: cart.items,
   }));
   const dispatch = useDispatch();
-  console.log(items);
   return (
     <div className="container cart-wrapper">
       {!!items.length ? (
@@ -24,7 +22,6 @@ function CartPage() {
       ) : (
         <div className="cart__empty">
           <div className="cart__empty-text">Корзина пуста</div>
-          <SentimentVeryDissatisfiedIcon />
         </div>
       )}
     </div>

@@ -6,6 +6,7 @@ import axios from 'axios';
 import Header from './components/Header';
 import MainPage from './pages/MainPage';
 import CartPage from './pages/CartPage';
+import FavoritesPage from './pages/FavoritesPage';
 import { setProducts } from './redux/actions/products';
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Header />
         <Route exact path="/" component={MainPage} />
         <Route path="/cart" component={CartPage} />
+        <Route path="/favorites" component={FavoritesPage} />
       </div>
     </Router>
   );

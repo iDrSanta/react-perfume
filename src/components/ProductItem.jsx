@@ -1,15 +1,31 @@
 import React from 'react';
+import { useDispatch } from 'react-redux';
+import FavoriteIcon from '@material-ui/icons/Favorite';
+import { setCart } from '../redux/actions/cart';
 
-function ProductItem({ title, brand, price, imageUrl, onClick }) {
+import { handleFavorites } from '../redux/actions/products';
+
+function ProductItem({ obj }) {
+  const dispatch = useDispatch();
+
+  const handleFavorite = (id) => {
+    dispatch(handleFavorites(id));
+  };
+
+  const addToCart = (obj) => {
+    dispatch(setCart(obj));
+  };
+
   return (
     <div className="item">
-      <img src={imageUrl} alt="" />
+      <FavoriteIcon onClick={() => handleFavorite(obj.id)} />
+      <img src={obj.imageUrl} alt="" />
       <div className="item-info">
-        <div className="title">{title}</div>
-        <div className="brand">{brand}</div>
+        <div className="title">{obj.title}</div>
+        <div className="brand">{obj.brand}</div>
         <div className="price">
-          цена: {price} руб{' '}
-          <button onClick={onClick} className="header-button">
+          цена: {obj.price} руб{' '}
+          <button onClick={() => addToCart(obj)} className="header-button">
             добавить
           </button>
         </div>

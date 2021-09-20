@@ -1,5 +1,6 @@
 const initialState = {
   items: [],
+  favorites: [],
 };
 
 const productsReducer = (state = initialState, action) => {
@@ -8,7 +9,19 @@ const productsReducer = (state = initialState, action) => {
       return {
         ...state,
         items: action.payload,
-        isLoaded: true,
+      };
+    case 'SET_FAVORITE':
+      return {
+        ...state,
+        favorites: state.items.filter((item) => item.favorite),
+      };
+    case 'HANDLE_FAVORITES':
+      return {
+        ...state,
+        items: state.items.map((item) => ({
+          ...item,
+          favorite: item.id === action.payload ? !item.favorite : item.favorite,
+        })),
       };
 
     default:
