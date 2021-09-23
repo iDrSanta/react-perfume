@@ -7,11 +7,11 @@ import ProductItem from '../components/ProductItem';
 function FavoritesPage() {
   const dispatch = useDispatch();
   const { favorites } = useSelector((state) => state.products);
-  const { items } = useSelector((state) => state.products);
+  const { visibleProducts } = useSelector((state) => state.products);
 
   React.useEffect(() => {
     dispatch(setFavorites());
-  }, [items]);
+  }, [visibleProducts]);
 
   return (
     <div className="products-wrapper">
