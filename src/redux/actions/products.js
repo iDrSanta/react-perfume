@@ -3,6 +3,15 @@ export const setProducts = (items) => ({
   payload: items,
 });
 
+export const setAllProducts = () => ({
+  type: 'ALL_VISIBLE_PRODUCTS',
+});
+
+export const setVisibleProducts = (category) => ({
+  type: 'VISIBLE_PRODUCTS',
+  category,
+});
+
 export const setFavorites = () => ({
   type: 'SET_FAVORITE',
 });

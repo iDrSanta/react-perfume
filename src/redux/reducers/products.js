@@ -1,5 +1,6 @@
 const initialState = {
   items: [],
+  visibleProducts: [],
   favorites: [],
 };
 
@@ -9,6 +10,16 @@ const productsReducer = (state = initialState, action) => {
       return {
         ...state,
         items: action.payload,
+      };
+    case 'ALL_VISIBLE_PRODUCTS':
+      return {
+        ...state,
+        visibleProducts: state.items,
+      };
+    case 'VISIBLE_PRODUCTS':
+      return {
+        ...state,
+        visibleProducts: state.items.filter((item) => item.category === action.category),
       };
     case 'SET_FAVORITE':
       return {

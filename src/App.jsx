@@ -7,7 +7,7 @@ import Header from './components/Header';
 import MainPage from './pages/MainPage';
 import CartPage from './pages/CartPage';
 import FavoritesPage from './pages/FavoritesPage';
-import { setProducts } from './redux/actions/products';
+import { setProducts, setAllProducts } from './redux/actions/products';
 
 function App() {
   const dispatch = useDispatch();
@@ -15,6 +15,7 @@ function App() {
   React.useEffect(() => {
     axios.get(`http://localhost:3000/data.json`).then(({ data }) => {
       dispatch(setProducts(data));
+      dispatch(setAllProducts());
     });
   }, [dispatch]);
 
