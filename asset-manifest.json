@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-perfume/static/css/main.5718452f.chunk.css",
+    "main.js": "/react-perfume/static/js/main.2126aa39.chunk.js",
+    "main.js.map": "/react-perfume/static/js/main.2126aa39.chunk.js.map",
+    "runtime-main.js": "/react-perfume/static/js/runtime-main.d153274d.js",
+    "runtime-main.js.map": "/react-perfume/static/js/runtime-main.d153274d.js.map",
+    "static/css/2.1cdcfe91.chunk.css": "/react-perfume/static/css/2.1cdcfe91.chunk.css",
+    "static/js/2.666afed9.chunk.js": "/react-perfume/static/js/2.666afed9.chunk.js",
+    "static/js/2.666afed9.chunk.js.map": "/react-perfume/static/js/2.666afed9.chunk.js.map",
+    "index.html": "/react-perfume/index.html",
+    "static/css/2.1cdcfe91.chunk.css.map": "/react-perfume/static/css/2.1cdcfe91.chunk.css.map",
+    "static/css/main.5718452f.chunk.css.map": "/react-perfume/static/css/main.5718452f.chunk.css.map",
+    "static/js/2.666afed9.chunk.js.LICENSE.txt": "/react-perfume/static/js/2.666afed9.chunk.js.LICENSE.txt",
+    "static/media/header-logo.42a5149d.svg": "/react-perfume/static/media/header-logo.42a5149d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d153274d.js",
+    "static/css/2.1cdcfe91.chunk.css",
+    "static/js/2.666afed9.chunk.js",
+    "static/css/main.5718452f.chunk.css",
+    "static/js/main.2126aa39.chunk.js"
+  ]
+}
