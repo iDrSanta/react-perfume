@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-perfume/static/css/main.5718452f.chunk.css",
-    "main.js": "/react-perfume/static/js/main.2126aa39.chunk.js",
-    "main.js.map": "/react-perfume/static/js/main.2126aa39.chunk.js.map",
+    "main.js": "/react-perfume/static/js/main.6508200d.chunk.js",
+    "main.js.map": "/react-perfume/static/js/main.6508200d.chunk.js.map",
     "runtime-main.js": "/react-perfume/static/js/runtime-main.d153274d.js",
     "runtime-main.js.map": "/react-perfume/static/js/runtime-main.d153274d.js.map",
     "static/css/2.1cdcfe91.chunk.css": "/react-perfume/static/css/2.1cdcfe91.chunk.css",
@@ -19,6 +19,6 @@
     "static/css/2.1cdcfe91.chunk.css",
     "static/js/2.666afed9.chunk.js",
     "static/css/main.5718452f.chunk.css",
-    "static/js/main.2126aa39.chunk.js"
+    "static/js/main.6508200d.chunk.js"
   ]
 }
