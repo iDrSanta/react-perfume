@@ -8,16 +8,23 @@ import MainPage from './pages/MainPage';
 import CartPage from './pages/CartPage';
 import FavoritesPage from './pages/FavoritesPage';
 import { setProducts, setAllProducts } from './redux/actions/products';
+import data from './data.json';
 
 function App() {
   const dispatch = useDispatch();
 
   React.useEffect(() => {
-    axios.get(`http://localhost:3000/data.json`).then(({ data }) => {
-      dispatch(setProducts(data));
-      dispatch(setAllProducts());
-    });
+    dispatch(setProducts(data));
+    dispatch(setAllProducts());
   }, [dispatch]);
+
+  // React.useEffect(() => {
+  //   axios.get(`http://localhost:3000/data.json`).then(({ data }) => {
+  //     dispatch(setProducts(data));
+  //     dispatch(setAllProducts());
+  //   });
+  // }, [dispatch]);
+  console.log(data);
 
   return (
     <Router>
